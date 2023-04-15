@@ -42,7 +42,6 @@ const Cus_Form_Input = ({ label, ...rest }) => {
                 mb: 0.5
             }}>{label}</InputLabel>
             <TextField
-                variant="outlined"
                 {...rest}
             />
         </ThemeProvider>
